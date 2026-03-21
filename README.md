@@ -2,7 +2,7 @@
 
 Personal portfolio and professional profile site for Maksym Riahuzov.
 
-The site is designed to present a clear Lead Frontend Engineer / Senior Frontend Engineer positioning with emphasis on frontend architecture, scalable UI systems, React and TypeScript delivery, design systems, performance, and technical leadership.
+The site is designed to present a clear Lead Frontend Engineer positioning with emphasis on frontend architecture, scalable UI systems, React and TypeScript delivery, design systems, performance, and technical leadership.
 
 ## What This Repo Contains
 

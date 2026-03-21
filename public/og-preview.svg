@@ -6,21 +6,21 @@
     LEAD FRONTEND ENGINEER
   </text>
 
-  <text x="94" y="232" fill="#F5F5F5" font-family="Avenir Next, Segoe UI, sans-serif" font-size="88" font-weight="600">
+  <text x="94" y="226" fill="#F5F5F5" font-family="Avenir Next, Segoe UI, sans-serif" font-size="84" font-weight="600">
     Maksym
   </text>
-  <text x="94" y="320" fill="#F5F5F5" font-family="Avenir Next, Segoe UI, sans-serif" font-size="88" font-weight="600">
+  <text x="94" y="310" fill="#F5F5F5" font-family="Avenir Next, Segoe UI, sans-serif" font-size="84" font-weight="600">
     Riahuzov
   </text>
 
-  <text x="94" y="410" fill="#D3D3D3" font-family="Avenir Next, Segoe UI, sans-serif" font-size="31">
-    Building scalable frontend systems with React,
+  <text x="94" y="394" fill="#D3D3D3" font-family="Avenir Next, Segoe UI, sans-serif" font-size="30">
+    Building scalable frontend systems, design platforms,
   </text>
-  <text x="94" y="454" fill="#D3D3D3" font-family="Avenir Next, Segoe UI, sans-serif" font-size="31">
-    TypeScript, strong architecture, and delivery discipline.
+  <text x="94" y="438" fill="#D3D3D3" font-family="Avenir Next, Segoe UI, sans-serif" font-size="30">
+    and production-ready product architecture.
   </text>
 
-  <text x="94" y="528" fill="#959595" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22">
-    Design Systems · Performance · CI/CD · Product Engineering
+  <text x="94" y="520" fill="#959595" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22">
+    Frontend Architecture · Technical Ownership · Strong UI Execution
   </text>
 </svg>

@@ -16,7 +16,7 @@ function App() {
       >
         <div className="grid content-center lg:col-span-2">
           <p className="text-text-muted text-xs tracking-wide uppercase">
-            Senior Frontend Engineer
+            Lead Frontend Engineer
           </p>
           <h1 className="text-text-primary mt-3 text-5xl leading-none font-semibold md:text-7xl lg:text-8xl">
             Maksym Riahuzov
@@ -63,7 +63,7 @@ function App() {
       <SectionBlock
         id="summary-title"
         label="Summary"
-        title="Senior scope with lead-level ownership."
+        title="Lead scope and end-to-end ownership."
       >
         <div className="grid gap-3 md:grid-cols-2">
           {pillars.map((item) => (
