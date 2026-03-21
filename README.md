@@ -1,32 +1,52 @@
 # Maksym Riahuzov Portfolio
 
-Single-page portfolio built with Vite, React, TypeScript, Tailwind CSS v4, and a small shared token layer for color and radius.
+Personal portfolio and professional profile site for Maksym Riahuzov.
 
-## Install
+The site is designed to present a clear Lead Frontend Engineer / Senior Frontend Engineer positioning with emphasis on frontend architecture, scalable UI systems, React and TypeScript delivery, design systems, performance, and technical leadership.
+
+## What This Repo Contains
+
+- a single-page portfolio site
+- a concise professional narrative built from real CV data
+- a static production build suitable for GitHub Pages
+- a lightweight implementation focused on clarity, speed, and maintainability
+
+## What The Site Tries To Communicate
+
+- strong frontend architecture and systems thinking
+- practical React / TypeScript depth
+- ability to lead delivery and improve engineering quality
+- credibility for recruiters, hiring managers, and engineering leaders
+- a modern, restrained, professional visual tone
+
+## Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS v4
+
+## Local Development
 
 ```bash
 npm install
-```
-
-## Development
-
-```bash
 npm run dev
 ```
 
-## Build
+## Production Build
 
 ```bash
 npm run build
 ```
 
-`npm run build` creates a static `dist/` output with pre-rendered HTML and CSS for the portfolio. The final bundle is generated without a client-side React render step, which makes it suitable for GitHub Pages and other static hosts.
+The build output is pre-rendered to static HTML and CSS, so the deployed site works as a static portfolio rather than relying on client-side React rendering.
 
-## Preview
+## Deployment
 
-```bash
-npm run preview
-```
+The repository is set up for GitHub Pages deployment.
+
+- `npm run build` outputs the final site to `dist/`
+- GitHub Actions can publish `dist/` to the `gh-pages` branch automatically
 
 ## Quality
 
@@ -35,39 +55,3 @@ npm run lint
 npm run format
 npm run format:check
 ```
-
-## Structure
-
-- `src/` application code
-- `public/` static assets such as the CV, avatar, SVG icons, and social preview image
-- `index.html` application entry
-- `vite.config.ts` Vite configuration
-
-## Deployment
-
-The project uses a relative Vite `base` value, so the production build in `dist/` is suitable for GitHub Pages-style static hosting.
-
-Typical flow:
-
-```bash
-npm run build
-```
-
-Then publish the contents of `dist/` to your `gh-pages` branch.
-
-## GitHub Pages Automation
-
-A GitHub Actions workflow is included in [.github/workflows/deploy-gh-pages.yml](/Users/maxryaguzov/Repositories/portfolio/.github/workflows/deploy-gh-pages.yml).
-
-It will:
-
-- run on pushes to `main`
-- build the static site
-- publish `dist/` to the `gh-pages` branch
-
-One-time repository setup:
-
-1. Open GitHub repository settings.
-2. Go to `Pages`.
-3. Set the source to `Deploy from a branch`.
-4. Choose the `gh-pages` branch and the `/ (root)` folder.
