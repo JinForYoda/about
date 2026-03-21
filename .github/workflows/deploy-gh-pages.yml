@@ -32,6 +32,10 @@ jobs:
           npm_config_include: optional
         run: npm install
 
+      - name: Install Rollup Linux binary
+        if: runner.os == 'Linux' && runner.arch == 'X64'
+        run: npm install --no-save @rollup/rollup-linux-x64-gnu
+
       - name: Build static site
         run: npm run build
 
