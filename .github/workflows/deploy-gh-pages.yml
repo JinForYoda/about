@@ -32,9 +32,13 @@ jobs:
           npm_config_include: optional
         run: npm install
 
-      - name: Install Rollup Linux binary
+      - name: Install Linux native build dependencies
         if: runner.os == 'Linux' && runner.arch == 'X64'
-        run: npm install --no-save @rollup/rollup-linux-x64-gnu
+        run: |
+          npm install --no-save \
+            @rollup/rollup-linux-x64-gnu \
+            lightningcss-linux-x64-gnu \
+            @tailwindcss/oxide-linux-x64-gnu
 
       - name: Build static site
         run: npm run build
