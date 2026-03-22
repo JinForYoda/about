@@ -1,12 +1,12 @@
-# Maksym Riahuzov Portfolio
+# Maksym Riahuzov About
 
-Personal portfolio and professional profile site for Maksym Riahuzov.
+Personal about page and professional profile site for Maksym Riahuzov.
 
 The site is designed to present a clear Lead Frontend Engineer positioning with emphasis on frontend architecture, scalable UI systems, React and TypeScript delivery, design systems, performance, and technical leadership.
 
 ## What This Repo Contains
 
-- a single-page portfolio site
+- a single-page about site
 - a concise professional narrative built from real CV data
 - a static production build suitable for GitHub Pages
 - a lightweight implementation focused on clarity, speed, and maintainability
@@ -39,7 +39,7 @@ npm run dev
 npm run build
 ```
 
-The build output is pre-rendered to static HTML and CSS, so the deployed site works as a static portfolio rather than relying on client-side React rendering.
+The build output is pre-rendered to static HTML and CSS, so the deployed site works as a static about page rather than relying on client-side React rendering.
 
 ## Deployment
 
