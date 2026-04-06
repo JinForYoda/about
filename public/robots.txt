@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jin-for-yoda.com/sitemap.xml
