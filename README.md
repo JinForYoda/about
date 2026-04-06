@@ -8,7 +8,7 @@ The site is designed to present a clear Lead Frontend Engineer positioning with 
 
 - a single-page about site
 - a concise professional narrative built from real CV data
-- a static production build suitable for GitHub Pages
+- a static production build suitable for Cloudflare Pages
 - a lightweight implementation focused on clarity, speed, and maintainability
 
 ## What The Site Tries To Communicate
@@ -43,10 +43,10 @@ The build output is pre-rendered to static HTML and CSS, so the deployed site wo
 
 ## Deployment
 
-The repository is set up for GitHub Pages deployment.
+The repository is set up for Cloudflare Pages deployment.
 
 - `npm run build` outputs the final site to `dist/`
-- GitHub Actions can publish `dist/` to the `gh-pages` branch automatically
+- Cloudflare builds the site from the connected GitHub repository and deploys the static output from `dist/`
 
 ## Quality
 
