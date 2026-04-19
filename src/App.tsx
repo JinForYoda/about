@@ -16,19 +16,20 @@ function App() {
       >
         <div className="grid content-center lg:col-span-2">
           <p className="text-text-muted text-xs tracking-wide uppercase">
-            Lead Frontend Engineer
+            Senior Frontend Engineer
           </p>
           <h1 className="text-text-primary mt-3 text-5xl leading-none font-semibold md:text-7xl lg:text-8xl">
             Maksym Riahuzov
           </h1>
           <p className="text-text-secondary mt-6 max-w-xl text-xl leading-8 lg:text-2xl">
-            Building scalable frontend systems, design platforms, and
-            production-ready product architecture with React and TypeScript.
+            Building scalable React and TypeScript applications for SaaS,
+            with strength in architecture, performance, and legacy
+            modernization.
           </p>
           <p className="text-text-muted mt-4 max-w-xl text-base leading-7">
-            I take complex product areas from architecture to production,
-            combining technical ownership, strong UI execution, mentoring, and
-            delivery discipline.
+            I work across frontend platforms, full-stack product delivery,
+            monorepos, custom SSR, and production rollout to turn complex
+            systems into maintainable product foundations.
           </p>
         </div>
 
@@ -50,7 +51,8 @@ function App() {
             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent" />
           </div>
           <p className="text-text-muted text-center text-xs tracking-wide uppercase">
-            Frontend architecture, technical ownership, and strong UI execution.
+            Frontend architecture, scalable systems, and end-to-end product
+            ownership.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {links.map((link) => (

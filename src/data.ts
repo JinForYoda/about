@@ -1,65 +1,65 @@
 import { CvIcon, EmailIcon, GitHubIcon, LinkedInIcon } from './components/icons'
 
 export const pillars = [
-  'Operating at senior level with lead-level ownership across 3 production applications and 7-8 shared libraries.',
-  'Built a microfrontend monorepo with reusable i18n, shared UI, and shared business logic across 28 languages.',
-  'Reduced bundle size by 3x while improving the structure and reuse of the shared frontend platform.',
-  'Can take a product area from architecture to AWS delivery and production support without handoffs.',
+  'Senior Frontend Engineer with 6+ years building scalable React and TypeScript products for SaaS teams.',
+  'Strong hands-on track record in frontend architecture, performance optimization, and legacy modernization.',
+  'Delivered full-stack product work with React, Next.js, NestJS, tRPC, and custom SSR in fast-moving environments.',
+  'Operate with end-to-end ownership across product architecture, shared platforms, CI/CD, rollout, and production support.',
 ]
 
 export const impact = [
   {
-    title: 'Product Scale',
-    text: 'Built and maintained frontend systems used across a product with a customer base close to one million.',
+    title: 'Platform Scale',
+    text: 'Owned 3 production applications and 7-8 shared libraries for a SaaS product serving a customer base close to one million.',
   },
   {
-    title: 'White-Label Platform',
-    text: 'Built a brand-agnostic theming layer with configurable tokens and assets, making white-label rollout scalable instead of manual.',
+    title: 'Delivery Speed',
+    text: 'Built a frontend architecture that accelerated delivery of new product capabilities by up to 5x, increasing team throughput across quarters.',
   },
   {
-    title: 'Delivery Ownership',
-    text: 'Owned delivery from code to production, including AWS infrastructure and selective monorepo deployments based on changed modules.',
+    title: 'Performance and Reuse',
+    text: 'Reduced frontend bundle size by about 3x while improving reuse, maintainability, and structure of the shared platform.',
   },
   {
-    title: 'Editor Migration',
-    text: 'Led the DraftJS to TipTap migration with full visual compatibility and data migration, allowing the old editor stack to be fully retired.',
+    title: 'Business Outcomes',
+    text: 'Contributed to a modernized dashboard experience that supported the acquisition of 20k+ new paying customers and reduced unnecessary backend traffic with smarter revalidation.',
   },
 ]
 
 export const systems = [
   {
-    title: 'Monorepo and Microfrontend Platform',
-    text: 'Created and curated the monorepo for product microfrontends, with reusable platform modules, shared i18n across 28 languages, and a cleaner foundation for scaling teams and features.',
+    title: 'Microfrontend Monorepo Platform',
+    text: 'Designed and implemented a microfrontend monorepo that unified shared business domains, UI foundations, and localization across 28 languages.',
   },
   {
-    title: 'White-Label and Design System',
-    text: 'Separated branding from business logic with a unified design system and a scalable white-label model for assets, themes, and product presentation.',
+    title: 'Full-Stack Product Applications',
+    text: 'Built and maintained full-stack applications with React, NestJS, and tRPC, owning the architecture from frontend boundaries to operational rollout.',
   },
   {
-    title: 'Editor Platform on TipTap',
-    text: 'Built and maintained a full text editor on TipTap with custom product workflows, complex content behavior, and extensions tailored to product needs.',
+    title: 'Rich Text Editing Platform',
+    text: 'Developed a feature-rich editor used across multiple product domains, creating a seamless cross-product editing experience for more advanced customer workflows.',
   },
   {
-    title: 'Fullstack SSR Application',
-    text: 'Built a React and NestJS application from scratch with custom SSR, shared contracts, and a lean page delivery model for public-facing experiences.',
+    title: 'Legacy Dashboard Modernization',
+    text: 'Led the redesign and modernization of a legacy dashboard onto a modern frontend stack, improving product experience and enabling faster iteration.',
   },
   {
-    title: 'AWS Delivery Platform',
-    text: 'Built and maintained the delivery layer for frontend applications in AWS, including selective monorepo deployments and end-to-end ownership from build pipelines to production rollout.',
+    title: 'Revalidation and Delivery Infrastructure',
+    text: 'Designed a domain-aware request revalidation layer and owned delivery from build pipelines to AWS rollout and production support.',
   },
   {
-    title: 'Sustainable Frontend Architecture',
-    text: 'Structured large product areas so the frontend stayed scalable, understandable, and maintainable as the system, team, and feature set kept growing.',
+    title: 'Marketing and SEO Web Delivery',
+    text: 'Built customer-facing marketing pages with React and pre-rendered React, improving technical quality, SEO, and speed of website delivery.',
   },
 ]
 
 export const ownership = [
-  'Led 3 engineers directly and coordinated with QA, designers, and a project manager.',
-  'Acted as both formal and technical lead for the owned product area.',
-  'Made technical direction decisions for the product area and the supporting library ecosystem.',
-  'Presented internal architecture, CI/CD, and subdomain structure to the wider company.',
-  'Introduced stronger delivery practices, including SCRUM routines and clearer epic and task specifications.',
-  'Mentored engineers through 1:1s, presentations, and retrospectives, helping them become more autonomous and proactive.',
+  'Own product areas end to end, from architecture and implementation to rollout, production support, and long-term maintainability.',
+  'Work comfortably across frontend platform design, CI/CD, performance, and selective backend integration when product scope requires it.',
+  'Collaborate closely with design, QA, and product to ship reliable interfaces and keep execution quality high in fast-moving teams.',
+  'Use modern engineering workflows, including AI-assisted development, to increase iteration speed without lowering technical standards.',
+  'Help teams scale through technical direction, shared platform thinking, and pragmatic modernization of legacy systems.',
+  'Balance hands-on delivery with cross-functional ownership so new capabilities can move from idea to production without handoff friction.',
 ]
 
 export const experience = [
@@ -67,19 +67,25 @@ export const experience = [
     period: '2024 — now',
     role: 'Frontend Team Lead',
     company: 'Systeme.io',
-    text: 'Owned 3 applications and the shared library layer for a product with a customer base close to one million. Built from scratch and maintained an application that grew to roughly 370k lines of code, while leading technical direction, mentoring, UX and architecture decisions, and platform work around monorepo structure, white-label support, design system reuse, and production delivery.',
+    text: 'Owned 3 production applications and 7-8 shared libraries, including 2 full-stack applications built with React, NestJS, and tRPC. Designed a microfrontend monorepo across 28 languages, reduced bundle size by about 3x, accelerated delivery of new capabilities by up to 5x, and owned rollout from architecture and pipelines to AWS production support.',
   },
   {
     period: '2022 — 2024',
     role: 'Frontend Developer',
     company: 'Systeme.io',
-    text: 'Built core product systems with React, Next.js, NestJS, and custom SSR. Delivered a fullstack page-generation application, created a complex TipTap-based editor, and led difficult editor migrations while preserving production content and user experience.',
+    text: 'Led the redesign and modernization of a legacy dashboard using a modern frontend stack, contributing to the acquisition of 20k+ new paying customers. Built a rich-text editor used across multiple product domains and designed a domain-aware revalidation layer that reduced unnecessary backend traffic and infrastructure cost while preserving UX quality.',
   },
   {
     period: '2021 — 2022',
     role: 'Frontend Developer',
     company: 'FONBET Cyprus',
-    text: 'Worked on large product areas in a complex legacy environment, shipping cross-browser interfaces and building the experience that later shaped my approach to modernization, decomposition, and frontend architecture.',
+    text: 'Contributed to a large-scale back-office product in a complex legacy environment, shipping internal product sections, extending frontend libraries, and delivering reliable cross-browser interfaces in close collaboration with design and QA.',
+  },
+  {
+    period: '2020 — 2021',
+    role: 'Web Developer',
+    company: 'ADCOMM',
+    text: 'Built and maintained customer-facing marketing pages with React and pre-rendered React, improving development consistency, technical quality, SEO, and the overall online presence used to attract new clients.',
   },
 ]
 
